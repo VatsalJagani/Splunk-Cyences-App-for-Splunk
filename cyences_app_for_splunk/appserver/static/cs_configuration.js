@@ -15,6 +15,7 @@ require([
         { macro_name: 'cs_sophos', input_id: 'macro_data_sophos', button_id: 'macro_data_sophos_button', msg_id: 'macro_data_msg'},
         { macro_name: 'cs_windows_defender', input_id: 'macro_data_windows_defender', button_id: 'macro_data_windows_defender_button', msg_id: 'macro_data_msg'},
         { macro_name: 'cs_crowdstrike_eventstream', input_id: 'macro_data_crowdstrike_eventstream', button_id: 'macro_data_crowdstrike_eventstream_button', msg_id: 'macro_data_msg'},
+        { macro_name: 'cs_trendmicro', input_id: 'macro_data_trendmicro', button_id: 'macro_data_trendmicro_button', msg_id: 'macro_data_msg'},
         { macro_name: 'cs_o365', input_id: 'macro_data_o365', button_id: 'macro_data_o365_button', msg_id: 'macro_data_msg'},
         { macro_name: 'cs_wineventlog_security', input_id: 'macro_data_wineventlog_security', button_id: 'macro_data_wineventlog_security_button', msg_id: 'macro_data_msg'},
         { macro_name: 'cs_wineventlog_system', input_id: 'macro_data_wineventlog_system', button_id: 'macro_data_wineventlog_system_button', msg_id: 'macro_data_msg'},
@@ -107,6 +108,9 @@ require([
         { macro_name: 'cs_crowdstrike_malware_detected_alert_filter', input_id: 'macro_cs_crowdstrike_malware_detected_alert_filter', button_id: 'macro_cs_crowdstrike_malware_detected_alert_filter_button', msg_id: 'macro_crowdstrike_msg'},
         { macro_name: 'cs_crowdstrike_malware_detected_report_filter', input_id: 'macro_cs_crowdstrike_malware_detected_report_filter', button_id: 'macro_cs_crowdstrike_malware_detected_report_filter_button', msg_id: 'macro_crowdstrike_msg'},
         { macro_name: 'cs_crowdstrike_malware_prevented_filter', input_id: 'macro_cs_crowdstrike_malware_prevented_filter', button_id: 'macro_cs_crowdstrike_malware_prevented_filter_button', msg_id: 'macro_crowdstrike_msg'},
+
+        /* TrendMicro */
+        /* TODO - Add macros configuration for more Trend Micro related stuff */
 
         /* Ransomware */
         { macro_name: 'cs_spike_in_file_writes_filter', input_id: 'macro_cs_spike_in_file_writes_filter', button_id: 'macro_cs_spike_in_file_writes_filter_button', msg_id: 'macro_ransomware_msg'},

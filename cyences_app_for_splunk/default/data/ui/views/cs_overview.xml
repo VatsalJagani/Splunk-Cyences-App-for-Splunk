@@ -33,6 +33,7 @@
         <div class="box" id="sophos_reports_link">Sophos</div>
         <div class="box" id="windowsdef_reports_link">Windows Defender</div>
         <div class="box" id="crowdstrike_reports_link">CrowdStrike</div>
+        <div class="box" id="trendmicro_reports_link">Trend Micro</div>
         <div class="box" id="vpn_reports_link">VPN</div>
         <div class="box" id="auth_reports_link">Authentication</div>
         <div class="box" id="admin_reports_link">Splunk Admin</div>
@@ -226,7 +227,7 @@
       <title>Antivirus</title>
       <table>
         <search base="basesearch">
-          <query>| `cs_filter_savedsearches("Sophos|Windows Defender|CrowdStrike")`</query>
+          <query>| `cs_filter_savedsearches("Sophos|Windows Defender|CrowdStrike|Trend Micro")`</query>
         </search>
         <option name="count">10</option>
         <option name="drilldown">row</option>

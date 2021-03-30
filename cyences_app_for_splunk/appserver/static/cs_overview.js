@@ -15,6 +15,7 @@ require([
         { id: 'sophos_reports_link', url: baseURL.concat('cs_sophos_reports')},
         { id: 'windowsdef_reports_link', url: baseURL.concat('cs_windows_defender_reports')},
         { id: 'crowdstrike_reports_link', url: baseURL.concat('cs_crowdstrike_reports')},
+        { id: 'trendmicro_reports_link', url: baseURL.concat('cs_trendmicro_reports')},
         { id: 'vpn_reports_link', url: baseURL.concat('cs_vpn_reports')},
         { id: 'auth_reports_link', url: baseURL.concat('cs_authentication_reports')},
         { id: 'admin_reports_link', url: baseURL.concat('cs_splunk_admin_reports')},
